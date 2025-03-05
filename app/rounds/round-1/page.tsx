@@ -153,7 +153,7 @@ const EmergencyCodePuzzle = () => {
                   value={inputs.emergencyCode}
                   onChange={handleInputChange("emergencyCode")}
                   className="w-full p-2 bg-gray-800 border border-gray-700 text-white mb-2"
-                  placeholder="Enter Emergency Code"
+                  placeholder="Format: CODE-ANSWER"
                 />
                 <button
                   onClick={() => checkStepAnswer("emergencyCode")}
