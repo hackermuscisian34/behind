@@ -5,7 +5,7 @@ import Timer from "@/components/timer"
 
 const NeuralPatternPuzzle = () => {
   const [input, setInput] = useState("")
-  const [attempts, setAttempts] = useState(3)
+  const [attempts, setAttempts] = useState(5)
   const [isComplete, setIsComplete] = useState(false)
   const [isLocked, setIsLocked] = useState(false)
   const [result, setResult] = useState("")

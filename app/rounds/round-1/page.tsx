@@ -14,7 +14,7 @@ const EmergencyCodePuzzle = () => {
   })
   const [terminalOutput, setTerminalOutput] = useState<string[]>([])
   const [isLocked, setIsLocked] = useState(false)
-  const [attempts, setAttempts] = useState(3)
+  const [attempts, setAttempts] = useState(5)
   const [result, setResult] = useState("")
   const [isComplete, setIsComplete] = useState(false)
   const [isTimerExpired, setIsTimerExpired] = useState(false)

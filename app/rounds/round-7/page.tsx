@@ -7,7 +7,7 @@ import { Fireworks } from "@/components/fireworks"
 const FinalEscapePuzzle = () => {
   const [input, setInput] = useState("")
   const [isComplete, setIsComplete] = useState(false)
-  const [attempts, setAttempts] = useState(3)
+  const [attempts, setAttempts] = useState(5)
   const [showHints, setShowHints] = useState(false)
   const [terminalOutput, setTerminalOutput] = useState<string[]>([
     "> INITIATING FINAL SECURITY PROTOCOL...",

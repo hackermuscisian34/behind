@@ -6,7 +6,7 @@ import Timer from "@/components/timer"
 const ColorPalettePuzzle = () => {
   const [input, setInput] = useState("")
   const [isComplete, setIsComplete] = useState(false)
-  const [attempts, setAttempts] = useState(3)
+  const [attempts, setAttempts] = useState(5)
   const [showPalette, setShowPalette] = useState(false)
   const [hintLevel, setHintLevel] = useState(0)
   const [isLocked, setIsLocked] = useState(false)
